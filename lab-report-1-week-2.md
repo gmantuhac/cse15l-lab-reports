@@ -11,7 +11,7 @@ Visit the [VSCode](https://code.visualstudio.com/) website and click the blue bu
 ## Step 2. Remotely Connecting
 ___
 
-First we need to look up our [account](https://sdacs.ucsd.edu/~icc/index.php) for CSE15L. If this is your first time logging into your account, just say yes to the prompt the terminal gives and input your password (Password shoudl look invisible since the system is very secure). Your terminal should look something similar to this:
+First we need to look up our [account](https://sdacs.ucsd.edu/~icc/index.php) for CSE15L. If this is your first time logging into your account, just say yes to the prompt the terminal gives and input your password (Password should look invisible since the system is very secure). Your terminal should look something similar to this:
 ![RemoteConnect](https://cdn.discordapp.com/attachments/938667785679147030/962624424568307782/unknown.png)
 
 ## Step 3. Running Commands
@@ -69,6 +69,17 @@ Enter passphrase (empty for no passphrase):
 ![WindowsSteps](https://cdn.discordapp.com/attachments/938667785679147030/962642002145583134/unknown.png)
 
 After all this, follow the code below to copy the public key (`id_rsa.pub`) onto the `ssh` directory. 
+
+```
+$ ssh cs15lsp22zz@ieng6.ucsd.edu
+<Enter Password>
+# now on server
+$ mkdir .ssh
+$ <logout>
+# back on client
+$ scp /Users/<user-name>/.ssh/id_rsa.pub cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys
+# You use your username and the path you saw in the command above
+```
 
 ## Step 6. Optimizing Remote Running
 ___
