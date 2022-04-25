@@ -7,5 +7,5 @@
 [Lab Report 2](https://gmantuhac.github.io/cse15l-lab-reports/lab-report-2-week-4.html)
 
 ---
-### ***Homepage is still under construction for further development***
+### ***Homepage is still under construction for further development :)*** 
 ---
