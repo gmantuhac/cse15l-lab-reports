@@ -6,13 +6,12 @@ Hello! Welcome to Lab Report 3! This lab will mainly show the group tests that w
 ![Image1a](https://cdn.discordapp.com/attachments/938667785679147030/972281522751176834/unknown.png)
 *Image 1a:* Creating config file
 
-To create the config file, I needed to first change the directory into my .ssh from my home directory. Then I creatd a txt file that had the contents to streamline my logging in process for my ieng6 account. Then I copied the contents into an actual config file.
+To create the config file, I needed to first change the directory into my `.ssh` from my home directory. Then I creatd a `txt` file that had the contents to streamline my logging in process for my `ieng6` account. Then I copied the contents into an actual config file.
 
 ![Image2a](https://cdn.discordapp.com/attachments/938667785679147030/972281971097108520/unknown.png)
 *Image 2a:* Logging in with alias
 
-With the config file, I am able to log in with the new alias I chose. Only uses `
-`ssh ieng6`
+With the config file, I am able to log in with the new alias I chose. Only uses `ssh ieng6`
 
 ![Image3a](https://cdn.discordapp.com/attachments/938667785679147030/972286295818764358/unknown.png)
 *Image 3a:* Using `scp` with alias
