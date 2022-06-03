@@ -10,6 +10,6 @@
 
 [Lab Report 4](https://gmantuhac.github.io/cse15l-lab-reports/lab-report-4-week-8.html)
 
----
-### ***Homepage is still under construction for further development*** 
----
+[Lab Report 5](https://gmantuhac.github.io/cse15l-lab-reports/lab-report-5-week-10.html)
+
+
